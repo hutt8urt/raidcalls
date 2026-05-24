@@ -1,7 +1,7 @@
 ```md id="mq7zpl"
 # RaidCalls
 
-![RaidCalls](raidcalls.png)
+!raidcalls.png
 
 RaidCalls is an Ashita v4 addon that provides a compact ImGui interface for raid communication.
 The addon allows players to quickly send standardized raid instructions through clickable buttons instead of manually typing callouts during combat.
