@@ -1,96 +1,71 @@
-# RaidCalls
+```md
+# HENM Timer
 
-RaidCalls is an Ashita v4 addon that provides a compact ImGui interface for raid communication.
-The addon allows players to quickly send standardized raid instructions through clickable buttons instead of manually typing callouts during combat.
-Originally designed as an accessibility-focused tool, RaidCalls helps improve communication during HNMs, Dynamis, and other endgame events.
+HENM Timer is an Ashita v4 addon that provides a compact ImGui interface for managing repeating encounter timers.
+The addon allows players to quickly start and stop repeating add timers through a simple UI instead of manually tracking countdowns during combat.
+Designed primarily for HNMs and endgame encounters with repeating mechanics, HENM Timer helps improve raid coordination and awareness.
 
 # Features
 - Compact ImGui UI
-- One-click raid callouts
-- Multiple chat output modes
-- Party + Tell support
-- Dynamis utility reminders
-- Hold percentage reminders
-- Stun coordination buttons
-- Accessibility-friendly communication
+- Adjustable repeating timer
+- Customizable add/message label
+- Automatic countdown announcements
+- Real-time countdown display
+- Simple start/stop controls
+- Lightweight encounter timer utility
 
 # Installation
 Place the addon folder inside: Ashita/addons/
-Load the addon in-game: /addon load raidcalls
+Load the addon in-game: /addon load henm_timer
 
-# Commands
+# Usage
 
-## Party Chat
-"/rcmode p"
-> Sets RaidCalls to Party chat mode.
-
-## Linkshell 1
-"/rcmode l"
-> Sets RaidCalls to Linkshell 1 chat mode.
-
-## Linkshell 2
-"/rcmode l2"
-> Sets RaidCalls to Linkshell 2 chat mode.
-
-## Tell Mode
-"/rcmode t PlayerName"
-> Sends all RaidCalls messages directly to the specified player.
+## Timer Length
+Set the timer length in seconds.
 
 Example:
-"/rcmode t Toogood"
+"47"
 
-## Party + Tell Mode
-"/rcmode pt PlayerName"
->Sends all RaidCalls messages to both Party chat and the specified player.
+> Creates a repeating 47 second timer.
 
-Example:
-/rcmode pt Toogood
+## Message
+Set the message label used for countdown announcements.
 
-# Included Callouts
+Examples:
+* ADDS
+* CRAB
+* PHASE
+* SPAWN
 
-## Main
-* Start DPS
-* Hold DPS
-* Focus Add
-* Focus Boss
-* Stun #1
-* Stun #2
+## Start Timer
+Starts the repeating encounter timer.
 
-## Dynamis
-* Ninja Warning
-* Hold TP
-* Perfect Dodge
-* Invincible
-* Slimes Need Silence
-* White Mage Warning
+## Stop Timer
+Stops the repeating encounter timer.
 
-## Hold Percentages
-20% Holds
-* Hold at 80%
-* Hold at 60%
-* Hold at 40%
-* Hold at 20%
-
-25% Holds
-* Hold at 75%
-* Hold at 50%
-* Hold at 25%
+# Countdown Warnings
+The addon automatically announces:
+* 10 seconds
+* 3 seconds
+* 2 seconds
+* NOW
 
 # Example Output
-* HOLD DPS 
-* FOCUS ADD 
-* STUN #1 GO!
-* PERFECT DODGE - BLM PICK OFF MOBS
-* SLIMES NEED SILENCE
+* ADDS IN 10s
+* ADDS IN 3s
+* ADDS IN 2s
+* ADDS NOW!
 
 # Notes
-RaidCalls does not automate gameplay in any way.
+HENM Timer does not automate gameplay in any way.
 
 The addon only:
-* displays UI buttons
-* sends chat messages
-* assists with raid communication
+* tracks local timers
+* displays UI information
+* sends chat countdown messages
+
 No combat automation, targeting, movement, packet interaction, or unattended gameplay functionality is included.
 
 # Author
 Toogood @ Horizon
+```
