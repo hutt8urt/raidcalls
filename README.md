@@ -77,11 +77,11 @@ Example:
 * Hold at 25%
 
 # Example Output
-*>>> HOLD DPS <<<
-*>>> FOCUS ADD <<<
-*>>> STUN #1 GO! <<<
-*>>> PERFECT DODGE - BLM PICK OFF MOBS <<<
-*>>> SLIMES NEED SILENCE <<<
+* >>> HOLD DPS <<<
+* >>> FOCUS ADD <<<
+* >>> STUN #1 GO! <<<
+* >>> PERFECT DODGE - BLM PICK OFF MOBS <<<
+* >>> SLIMES NEED SILENCE <<<
 
 # Notes
 RaidCalls does not automate gameplay in any way.
