@@ -22,26 +22,26 @@ Load the addon in-game: /addon load raidcalls
 
 ## Party Chat
 "/rcmode p"
-Sets RaidCalls to Party chat mode.
+> Sets RaidCalls to Party chat mode.
 
 ## Linkshell 1
 "/rcmode l"
-Sets RaidCalls to Linkshell 1 chat mode.
+> Sets RaidCalls to Linkshell 1 chat mode.
 
 ## Linkshell 2
 "/rcmode l2"
-Sets RaidCalls to Linkshell 2 chat mode.
+> Sets RaidCalls to Linkshell 2 chat mode.
 
 ## Tell Mode
 "/rcmode t PlayerName"
-Sends all RaidCalls messages directly to the specified player.
+> Sends all RaidCalls messages directly to the specified player.
 
 Example:
 "/rcmode t Toogood"
 
 ## Party + Tell Mode
 "/rcmode pt PlayerName"
-Sends all RaidCalls messages to both Party chat and the specified player.
+>Sends all RaidCalls messages to both Party chat and the specified player.
 
 Example:
 /rcmode pt Toogood
